@@ -1,0 +1,25 @@
+{
+  "name": "dogwebsitenew",
+  "version": "1.0.0",
+  "description": "dogwebsitenew",
+  "main": "Dog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonclynesccc/dogwebsitenew.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/brandonclynesccc/dogwebsitenew/issues"
+  },
+  "homepage": "https://github.com/brandonclynesccc/dogwebsitenew#readme",
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.3.0"
+  }
+}
