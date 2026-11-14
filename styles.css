@@ -79,3 +79,54 @@ body.light-mode #darkMode {
     color: white;
 }
 
+/* Task Tracker */
+#task-tracker {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+}
+
+#task-tracker h2 {
+    margin-bottom: 10px;
+}
+
+#task-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+#task-input {
+    flex: 1;
+    min-width: 180px;
+    padding: 10px;
+}
+
+#task-form button,
+#task-list button {
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#task-list {
+    padding-left: 20px;
+}
+
+#task-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0;
+}
+
+#task-list span {
+    flex: 1;
+}
+
+#task-message {
+    margin-top: 15px;
+    font-weight: bold;
+}
